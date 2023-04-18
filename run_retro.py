@@ -10,6 +10,12 @@ import logging
 import signal
 import time, random
 
+# add the following lines of code to the end of retro_star/common/parse_args.py
+# parser.add_argument('--input', type=str, default='test100.smi')
+# parser.add_argument('--output', type=str, default=None)
+# parser.add_argument('--left', type=int, default=0)
+# parser.add_argument('--right', type=int, default=2000)
+# parser.add_argument('--num_threads', type=int, default=1)
 
 torch.set_num_threads(1)
 # logging.disable()
